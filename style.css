@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-padding-top: 100px;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
@@ -303,6 +307,14 @@ footer a {
         flex-direction: column;
         margin-left: 0;
         gap: 20px;
+    }
+
+    .hero-image {
+        order: 1;
+    }
+
+    .hero-content {
+        order: 2;
     }
 
     .hero-content h1 {
