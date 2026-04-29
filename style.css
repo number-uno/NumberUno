@@ -78,7 +78,7 @@ nav a:hover {
 .hero-wrapper {
     display: flex;
     align-items: center;
-    gap: 5000px;
+    gap: 200px;
 }
 
 .hero-content {
